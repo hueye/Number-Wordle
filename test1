@@ -1,6 +1,8 @@
+public class Wordle{
+
 public static void main(String[] args){
 
-char[][] body = new char[5][6]
 
 
+}
 }
