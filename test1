@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.awt.color;
 
 public class RandomNumbers {
   public static void main(String[] args) {
@@ -6,14 +7,43 @@ public class RandomNumbers {
     int num = random.nextInt(99999);
 //do something with variable num here?
 
+/*
+old code, needs to be changed
+
 int[] answer = new int[5];
 for (int i = 0; i < 5; i++) answer[i] = answerChosen.intAt(i);
 int[] input = new int[5];
 boolean done = false;
 
 while(!done){
+  tries++; 
+}
+*/
+
+//game formatting (# of tries)
+int[][] = new int[4][5] //remember that number of rows/columns is subtracted by one because there is a "row/column zero"
+for (int i = 0; i < 5; i++) answer[i] = answerChosen.intAt(i);
+boolean done = false;
+
+while(!done){
   tries++;
-  
+}
+
+//guessing the right answer
+public class Guess{
+if {int guess == num;
+  System.out.println("You got today's numberdle! Congrats!");
+  boolean done = true;
+  System.exit(0);
+}else{
+  boolean done = false;
+  tries++;
+  }
+}
+
+public class GuessPartial{
+if {int guess < num || int guess > num;
+  num = Color color.black;
 }
 
 }
