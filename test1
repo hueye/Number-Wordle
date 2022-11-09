@@ -1,8 +1,20 @@
-public class Wordle{
+import java.util.Random;
 
-public static void main(String[] args){
+public class RandomNumbers {
+  public static void main(String[] args) {
+    Random random = new Random();
+    int num = random.nextInt(99999);
+//do something with variable num here?
 
+int[] answer = new int[5];
+for (int i = 0; i < 5; i++) answer[i] = answerChosen.intAt(i);
+int[] input = new int[5];
+boolean done = false;
 
+while(!done){
+  tries++;
+  
+}
 
 }
 }
