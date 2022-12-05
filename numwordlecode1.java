@@ -12,7 +12,7 @@ public class Wordle {
         int randomAnswer = new Random().nextInt(answer.length);
         int choice = numbers[randomNumber];
 
-        System.out.println("Welcome to Number Wordle! Please enter 5 numbers into the terminal.");
+        System.out.println("Welcome to Number Wordle! Please enter 5 numbers with no spaces into the terminal.");
 
         /* slightly incoherent code (ignore)
 
@@ -27,50 +27,54 @@ public class Wordle {
 
         //the guess (need to maximize efficiency. for now, make a separate if else statement for each number of the guess)
         //guess first number
+        
         if{
           int guess[0] = answer[0];
             System.out.print(guess[0](Color.green));
         }else if{
-          int guess[0] = answer[1,2,3,4];
+          guess[0] = answer[1,2,3,4];
             System.out.print(guess[0](Color.yellow));
         }else{
           System.out.print(guess[0](Color.black));}
         //guess second number
         if{
-          int guess[1] = answer[1];
+          guess[1] = answer[1];
             System.out.print(guess[1](Color.green));
         }else if{
-          int guess[1] = answer[0,2,3,4];
+          guess[1] = answer[0,2,3,4];
             System.out.print(guess[1](Color.yellow));
         }else{
            System.out.print(guess[1](Color.black));}
         //guess third number
         if{
-          int guess[2] = answer[2];
+          guess[2] = answer[2];
             System.out.print(guess[2](Color.green));
         }else if{
-          int guess[2] = answer[0,1,3,4];
+          guess[2] = answer[0,1,3,4];
             System.out.print(guess[2](Color.yellow));
         }else{
           System.out.print(guess[2](Color.black));}
         //guess fourth number
         if{
-          int guess[3] = answer[3];
+          guess[3] = answer[3];
             System.out.print(guess[3](Color.green));
         }else if{
-          int guess[3] = answer[0,1,2,4];
+          guess[3] = answer[0,1,2,4];
             System.out.print(guess[3](Color.yellow));
         }else{
           System.out.print(guess[3](Color.black));}
         //guess fifth number
         if{
-          int guess[4] = answer[4];
+          guess[4] = answer[4];
             System.out.print(guess[4](Color.green));
         }else if{
-          int guess[4] = answer[0,1,2,3];
+          guess[4] = answer[0,1,2,3];
             System.out.print(guess[4](Color.yellow));
         }else{
           System.out.print(guess[4](Color.black));}
+        
+        if guess[] = choice[];
+        System.out.println("Congratulations, you win!");
 
     }
 }
